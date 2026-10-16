@@ -2,6 +2,8 @@
 
 An AI agent that turns a brand's website into on-brand marketing images and checks every image before a person sees it.
 
+**▶ [Guided tour (2 min)](https://brand-studio-j15g.onrender.com/#/obilazak)** · **Live demo:** [brand-studio-j15g.onrender.com](https://brand-studio-j15g.onrender.com)
+
 1. **Reads the website**: title, meta tags, headings, visible text and the colours used in its CSS.
 2. **Builds a brand profile with Claude**: audience, tone, values, visual style, palette, what images should and should not show, and the evidence on the site it relied on.
 3. **Plans image concepts** for different channels (Instagram post, website hero, ad), written as prompts an image model can reliably execute.
