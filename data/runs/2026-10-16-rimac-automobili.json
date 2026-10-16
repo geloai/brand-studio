@@ -1,0 +1,336 @@
+{
+  "id": "2026-10-16-rimac-automobili",
+  "createdAt": "2026-10-16T11:26:03.179Z",
+  "url": "https://www.rimac-automobili.com/",
+  "models": {
+    "claude": "claude-opus-5-5",
+    "images": "fal-ai/nano-banana/edit"
+  },
+  "rules": {
+    "passAverage": 7.5,
+    "passMinimum": 6,
+    "maxAttempts": 3,
+    "maxUsd": 0.25
+  },
+  "product": {
+    "name": "Rimac Nevera",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2023_Rimac_Nevera_1.jpg/1280px-2023_Rimac_Nevera_1.jpg",
+    "file": "/images/ref-bcfc42d02bee.jpg",
+    "credit": {
+      "author": "Calreyn88",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Rimac_Nevera_1.jpg"
+    }
+  },
+  "brand": {
+    "brand_name": "Rimac Automobili",
+    "one_liner": "Rimac Automobili je tehnološka sila koja proizvodi električne hiperautomobile i globalnim proizvođačima automobila pruža cjelovita tehnološka rješenja.",
+    "audience": "Imućni kupci i kolekcionari hiperautomobila, globalni proizvođači automobila (OEM partneri), ljubitelji automobilske tehnologije te potencijalni zaposlenici iz inženjerske struke.",
+    "tone": [
+      "tehnološki napredan",
+      "samouvjeren",
+      "precizan",
+      "ekskluzivan",
+      "inovativan"
+    ],
+    "values": [
+      "inovacija i tehnološko vodstvo",
+      "vrhunske performanse",
+      "inženjerska izvrsnost",
+      "električna budućnost mobilnosti"
+    ],
+    "visual_style": "Fotografski, kinematografski stil s dubokim tamnim, gotovo crno-plavim tonovima i hladnim plavim naglascima; dramatično, kontrolirano svjetlo, čiste minimalističke kompozicije i futuristička, tehnička atmosfera.",
+    "palette": [
+      {
+        "hex": "#001217",
+        "name": "duboka noćno plava",
+        "role": "primarna"
+      },
+      {
+        "hex": "#1da5f9",
+        "name": "električna plava",
+        "role": "naglasak"
+      },
+      {
+        "hex": "#0a222e",
+        "name": "tamna petrolej plava",
+        "role": "sekundarna"
+      },
+      {
+        "hex": "#00b3ff",
+        "name": "svijetla cijan plava",
+        "role": "naglasak"
+      },
+      {
+        "hex": "#667275",
+        "name": "hladna čelično siva",
+        "role": "sekundarna"
+      },
+      {
+        "hex": "#f1f5f7",
+        "name": "ledeno bijela",
+        "role": "pozadina"
+      }
+    ],
+    "imagery_do": [
+      "dramatično, kontrastno svjetlo na tamnoj, hladnoj pozadini",
+      "aerodinamične linije i detalji precizne inženjerske izrade",
+      "hladni plavi svjetlosni naglasci koji sugeriraju električnu energiju",
+      "minimalistički, čisti prostori poput studija, tvornice ili tehnološkog kampusa",
+      "osjećaj brzine, snage i tehnološke budućnosti"
+    ],
+    "imagery_dont": [
+      "tople, rustikalne ili nostalgične atmosfere",
+      "pretrpane, kaotične kompozicije",
+      "jarke tople boje poput crvene, narančaste ili žute kao dominantne",
+      "motivi fosilnih goriva, ispušnih plinova ili benzinskih postaja",
+      "neformalni, amaterski ili snapshot stil fotografije"
+    ],
+    "evidence": [
+      "Opis stranice: 'technology powerhouse manufacturing electric hypercars and providing full technology solutions to global automotive manufacturers'",
+      "Navigacija ističe Nevera & Nevera R, Development, Technology, Campus i Factory tours",
+      "U CSS-u dominiraju tamne plavo-crne nijanse (#001217, #0a222e, #0d2936) uz električnu plavu (#1da5f9, #00b3ff)"
+    ],
+    "confidence": "srednja"
+  },
+  "siteColors": [
+    {
+      "hex": "#ffffff",
+      "count": 346
+    },
+    {
+      "hex": "#001217",
+      "count": 138
+    },
+    {
+      "hex": "#1da5f9",
+      "count": 116
+    },
+    {
+      "hex": "#000000",
+      "count": 107
+    },
+    {
+      "hex": "#23282f",
+      "count": 64
+    },
+    {
+      "hex": "#667275",
+      "count": 40
+    },
+    {
+      "hex": "#0a222e",
+      "count": 29
+    },
+    {
+      "hex": "#f1f5f7",
+      "count": 21
+    },
+    {
+      "hex": "#a7b7bf",
+      "count": 19
+    },
+    {
+      "hex": "#d9d9d9",
+      "count": 19
+    },
+    {
+      "hex": "#00b3ff",
+      "count": 18
+    },
+    {
+      "hex": "#0d2936",
+      "count": 13
+    }
+  ],
+  "concepts": [
+    {
+      "title": "Monolit u studiju",
+      "channel": "Naslovna slika web stranice",
+      "idea": "Nevera u minimalističkom tamnom studiju s jednom linijom hladnog plavog svjetla koje ocrtava njezine aerodinamične linije. Prenosi ekskluzivnost, preciznost i tehnološko vodstvo brenda.",
+      "prompt": "Keep the exact car from the reference photo unchanged. Place it in a vast minimalist dark studio with deep midnight blue, almost black walls and a glossy reflective floor. Low three-quarter front view, car centered with generous negative space. A single thin horizontal strip of electric blue light behind it traces the silhouette, with cool cyan rim light along the body lines. Cinematic, high contrast, premium automotive photography, no people, no text.",
+      "size": "landscape_4_3",
+      "attempts": [
+        {
+          "n": 1,
+          "prompt": "Keep the exact car from the reference photo unchanged. Place it in a vast minimalist dark studio with deep midnight blue, almost black walls and a glossy reflective floor. Low three-quarter front view, car centered with generous negative space. A single thin horizontal strip of electric blue light behind it traces the silhouette, with cool cyan rim light along the body lines. Cinematic, high contrast, premium automotive photography, no people, no text.",
+          "image": {
+            "file": "/images/f1ece6a56f0ce8a8.jpg",
+            "model": "fal-ai/nano-banana/edit",
+            "width": 1184,
+            "height": 864,
+            "costUsd": 0.0398
+          },
+          "review": {
+            "scores": {
+              "brand_fit": 9,
+              "visual_quality": 8,
+              "prompt_adherence": 9
+            },
+            "critical_issue": false,
+            "strengths": [
+              "Automobil vjerno prati predložak: crna karoserija, zelene trake, zeleni splitter i pragovi, kotači i RIMAC tablica",
+              "Minimalistički tamni studio s jednom horizontalnom linijom električno plavog svjetla točno pogađa koncept i paletu brenda",
+              "Sjajni reflektirajući pod i velik negativni prostor daju premium, kinematografski dojam pogodan za naslovnicu"
+            ],
+            "issues": [
+              "Uzorak zelenih traka na haubi blago je izmijenjen, a trake djeluju segmentirano umjesto kao dvije neprekinute paralelne trake",
+              "Hladno cijan rubno svjetlo duž linija karoserije je slabo, pa se bok i stražnji dio stapaju s pozadinom",
+              "Kadar je gotovo kvadratan; za web naslovnicu bolji bi bio širi format s više bočnog prostora"
+            ],
+            "summary": "Snažan, vjeran i brendu primjeren vizual koji je uz sitne korekcije trake na haubi i jače rubno svjetlo spreman za naslovnicu.",
+            "revised_prompt": "Keep the exact car from the reference photo unchanged, including its two continuous parallel green hood stripes, green splitter and side sills. Place it in a vast minimalist dark studio with deep midnight blue, almost black walls and a glossy reflective floor. Low three-quarter front view, wide cinematic framing, car centered with generous negative space. One thin horizontal strip of electric blue light behind it, with clear cool cyan rim light tracing the roofline and side body lines. High contrast premium automotive photography, no people, no text."
+          },
+          "verdict": {
+            "pass": true,
+            "average": 8.7,
+            "reasons": []
+          }
+        }
+      ],
+      "best": 1
+    },
+    {
+      "title": "Noćna brzina na pisti",
+      "channel": "Instagram objava",
+      "idea": "Automobil na praznoj noćnoj pisti uz motion blur okoline i plave svjetlosne tragove, što sugerira brzinu i električnu snagu bez fosilnih motiva.",
+      "prompt": "Keep the exact car from the reference photo unchanged. Show it driving on an empty airport runway at night, side profile panning shot, car sharp while the background streaks with motion blur. Long trails of electric blue and bright cyan runway lights stretch behind it, dark petrol blue sky, cool steel grey asphalt with subtle wet reflections. Dramatic controlled lighting, cinematic automotive photography, clean composition, no people, no text.",
+      "size": "square_hd",
+      "attempts": [
+        {
+          "n": 1,
+          "prompt": "Keep the exact car from the reference photo unchanged. Show it driving on an empty airport runway at night, side profile panning shot, car sharp while the background streaks with motion blur. Long trails of electric blue and bright cyan runway lights stretch behind it, dark petrol blue sky, cool steel grey asphalt with subtle wet reflections. Dramatic controlled lighting, cinematic automotive photography, clean composition, no people, no text.",
+          "image": {
+            "file": "/images/dac60ce2a540044a.jpg",
+            "model": "fal-ai/nano-banana/edit",
+            "width": 1024,
+            "height": 1024,
+            "costUsd": 0.0398
+          },
+          "review": {
+            "scores": {
+              "brand_fit": 8,
+              "visual_quality": 7,
+              "prompt_adherence": 8
+            },
+            "critical_issue": false,
+            "strengths": [
+              "Paleta točno odgovara brendu: duboka noćna plava, cijan svjetlosni tragovi i hladni sivi asfalt",
+              "Uvjerljiv osjećaj brzine kroz panning motion blur i čistu, minimalističku kompoziciju",
+              "Crna karoserija sa zelenim pragovima prati livreju s fotografije-predloška"
+            ],
+            "issues": [
+              "Automobil je premalen u kadru, a gornja trećina slike je prazno nebo, što slabi dojam na Instagramu",
+              "Kotači izgledaju statično, bez rotacijskog zamućenja, pa panning djeluje manje uvjerljivo",
+              "Profil je donekle pojednostavljen: proporcije su kraće i zbijenije, a karakteristični bočni usis zraka iza vrata slabo se vidi"
+            ],
+            "summary": "Atmosferski i bojom vrlo dobar vizual u duhu brenda, no auto treba biti veći u kadru, vjerniji Neverinim proporcijama i s uvjerljivijim zamućenjem kotača.",
+            "revised_prompt": "Keep the exact car from the reference photo unchanged, preserving its long low proportions, green lower sills and side air intake. Side profile panning shot at night on an empty airport runway, car filling most of the frame width, low camera height, horizon in the upper third. Spinning wheels with natural rotational blur, background streaked with electric blue and cyan runway light trails, dark petrol blue sky, wet steel grey asphalt. Cinematic automotive photography, no text."
+          },
+          "verdict": {
+            "pass": true,
+            "average": 7.7,
+            "reasons": []
+          }
+        }
+      ],
+      "best": 1
+    },
+    {
+      "title": "Tehnološki kampus",
+      "channel": "Oglas za zapošljavanje i OEM partnere (LinkedIn)",
+      "idea": "Nevera u čistom, futurističkom tvorničkom prostoru s ledeno bijelim i čelično sivim površinama, koji naglašava inženjersku izvrsnost i kampus kao mjesto inovacija.",
+      "prompt": "Keep the exact car from the reference photo unchanged. Place it inside a pristine futuristic factory hall with ice white epoxy floor, cool steel grey architectural panels and long linear ceiling lights glowing soft cyan. Elevated rear three-quarter view, symmetrical composition with the car centered and the hall receding into deep blue shadows. Calm, precise, technical atmosphere, sharp architectural photography, no people, no signage, no text.",
+      "size": "portrait_4_3",
+      "attempts": [
+        {
+          "n": 1,
+          "prompt": "Keep the exact car from the reference photo unchanged. Place it inside a pristine futuristic factory hall with ice white epoxy floor, cool steel grey architectural panels and long linear ceiling lights glowing soft cyan. Elevated rear three-quarter view, symmetrical composition with the car centered and the hall receding into deep blue shadows. Calm, precise, technical atmosphere, sharp architectural photography, no people, no signage, no text.",
+          "image": {
+            "file": "/images/4fd738aa4a8a94ea.jpg",
+            "model": "fal-ai/nano-banana/edit",
+            "width": 864,
+            "height": 1184,
+            "costUsd": 0.0398
+          },
+          "review": {
+            "scores": {
+              "brand_fit": 7,
+              "visual_quality": 7,
+              "prompt_adherence": 7
+            },
+            "critical_issue": true,
+            "strengths": [
+              "Čist, minimalistički tvornički prostor s ledeno bijelim podom i čelično sivim panelima",
+              "Hladna cijan linijska rasvjeta i refleksije na podu daju tehničku, preciznu atmosferu",
+              "Zadržane crno-zelene boje i karakterističan bočni usis"
+            ],
+            "issues": [
+              "Besmislen natpis 'R€ILAC' na stražnjem dijelu iznad tablice",
+              "Stražnji dio je izmišljen jer ga referentna fotografija ne prikazuje: fiksno krilo na nosačima i oblik svjetala ne odgovaraju Neveri",
+              "Kadar nije povišen, a automobil je pomaknut od središta uz previše praznog poda u prvom planu",
+              "Dosta svijetla scena odstupa od dubokih tamnih tonova brenda"
+            ],
+            "summary": "Prostor i atmosfera dobro pogađaju koncept kampusa, ali besmislena slova i izmišljen stražnji dio automobila čine sliku neupotrebljivom bez ponovnog generiranja.",
+            "revised_prompt": "Keep the exact car from the reference photo unchanged, same front three-quarter angle as the reference. Place it centered inside a pristine futuristic factory hall with ice white glossy epoxy floor, cool steel grey wall panels and long linear ceiling lights glowing soft cyan. Symmetrical composition, hall receding into deep blue shadows. Calm, precise, technical atmosphere, sharp architectural photography, no people, no added text or lettering."
+          },
+          "verdict": {
+            "pass": false,
+            "average": 7,
+            "reasons": [
+              "kritična greška",
+              "prosjek 7.0 < 7.5"
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "prompt": "Keep the exact car from the reference photo unchanged, same front three-quarter angle as the reference. Place it centered inside a pristine futuristic factory hall with ice white glossy epoxy floor, cool steel grey wall panels and long linear ceiling lights glowing soft cyan. Symmetrical composition, hall receding into deep blue shadows. Calm, precise, technical atmosphere, sharp architectural photography, no people, no added text or lettering.",
+          "image": {
+            "file": "/images/15403e9c5cf6f995.jpg",
+            "model": "fal-ai/nano-banana/edit",
+            "width": 864,
+            "height": 1184,
+            "costUsd": 0.0398
+          },
+          "review": {
+            "scores": {
+              "brand_fit": 8,
+              "visual_quality": 7,
+              "prompt_adherence": 8
+            },
+            "critical_issue": false,
+            "strengths": [
+              "Nevera je vjerno prenesena: crna karoserija, zelene pruge na haubi, zeleni prednji spojler i bočni pragovi te crni naplatci odgovaraju predlošku",
+              "Čist, simetričan i minimalistički tvornički prostor s ledeno bijelim sjajnim podom i čelično sivim panelima pogađa ideju tehnološkog kampusa",
+              "Hladna, precizna i tehnička atmosfera bez ljudi i nepotrebnih elemenata"
+            ],
+            "issues": [
+              "Automobil je premalen u kadru; donju trećinu slike zauzima prazan pod s pomalo nepravilnim odsjajima",
+              "Prostor je jednolično svijetao i ne nestaje u duboko plave sjene, pa nedostaje dramatičnosti i tamnih tonova brenda",
+              "Stropna svjetla su bijela umjesto blago cijan, pa nema električno plavih naglasaka",
+              "Startni broj na vjetrobranu podsjeća na utrku i odudara od kampusa"
+            ],
+            "summary": "Solidan i upotrebljiv vizual s vjernim proizvodom i čistim kampusnim ambijentom, kojem bi koristili krupniji kadar automobila te dublji, dramatičniji plavi kontrast.",
+            "revised_prompt": "Keep the exact car from the reference photo unchanged, same front three-quarter angle as the reference. The car fills most of the frame, shot from a low camera height, inside a minimalist futuristic factory hall with an ice white glossy floor and steel grey wall panels. Linear ceiling lights glow electric cyan, and the hall fades into deep navy blue shadows behind the car. Dramatic controlled lighting, cinematic architectural photography, no people, no added text."
+          },
+          "verdict": {
+            "pass": true,
+            "average": 7.7,
+            "reasons": []
+          }
+        }
+      ],
+      "best": 2
+    }
+  ],
+  "costs": {
+    "claudeUsd": 0.231324,
+    "imagesUsd": 0.1592,
+    "claudeCalls": 6,
+    "images": 4,
+    "totalUsd": 0.390524
+  },
+  "spentThisRunUsd": 0.33559599999999995,
+  "durationSec": 54
+}

@@ -1,0 +1,316 @@
+{
+  "id": "2026-10-16-kras",
+  "createdAt": "2026-10-16T10:58:27.890Z",
+  "url": "https://www.kras.hr/",
+  "models": {
+    "claude": "claude-opus-5-5",
+    "images": "fal-ai/flux/dev"
+  },
+  "rules": {
+    "passAverage": 7.5,
+    "passMinimum": 6,
+    "maxAttempts": 3
+  },
+  "brand": {
+    "brand_name": "Kraš",
+    "one_liner": "Kraš je hrvatski proizvođač čokolada, bombonijera, keksa i bombona s više od sto godina tradicije, namijenjen obiteljima i potrošačima svih generacija.",
+    "audience": "Široka publika svih generacija: obitelji s djecom, ljubitelji slatkiša i čokolade, kućni slastičari koji traže recepte te nostalgični potrošači vezani uz klasične Kraševe proizvode; dodatno investitori, mediji i posjetitelji tvorničkih i prodajnih prostora.",
+    "tone": [
+      "topao",
+      "nostalgičan",
+      "razigran",
+      "obiteljski",
+      "pristupačan"
+    ],
+    "values": [
+      "tradicija koja spaja generacije",
+      "užitak i slatki trenuci",
+      "obitelj i zajedništvo",
+      "edukacija i zabava za djecu"
+    ],
+    "visual_style": "Topla, apetitna fotografija čokolade i slastica u bogatim smeđim tonovima s jasnim crvenim naglascima, uz meko prirodno svjetlo i domaću, obiteljsku atmosferu. Za dječji svijet koriste se vedrije, razigranije kompozicije.",
+    "palette": [
+      {
+        "hex": "#e92226",
+        "name": "Kraš crvena",
+        "role": "primarna"
+      },
+      {
+        "hex": "#5a1515",
+        "name": "tamna čokoladno-bordo",
+        "role": "sekundarna"
+      },
+      {
+        "hex": "#640e00",
+        "name": "duboka kakao smeđa",
+        "role": "sekundarna"
+      },
+      {
+        "hex": "#e58779",
+        "name": "topla lososova",
+        "role": "naglasak"
+      },
+      {
+        "hex": "#72c880",
+        "name": "svježa zelena",
+        "role": "naglasak (dječji i eko sadržaji)"
+      }
+    ],
+    "imagery_do": [
+      "prelomljena čokolada, komadići kakaa, keksi i bomboni izbliza s bogatom teksturom",
+      "obiteljski trenuci dijeljenja slatkiša između djece, roditelja i bake i djeda",
+      "domaća kuhinja i pečenje deserata s otopljenom čokoladom",
+      "toplo, meko svjetlo i dubine smeđih tonova s crvenim akcentima",
+      "razigrani dječji motivi poput školskog početka, istraživanja i avanture"
+    ],
+    "imagery_dont": [
+      "hladni, sterilni ili klinički tonovi i plavičasto svjetlo",
+      "mračna, tmurna ili luksuzno-elitistička atmosfera koja isključuje obitelji",
+      "nezdrave ili neuredne scene prejedanja",
+      "generičke stock fotografije bez osjećaja topline i zajedništva",
+      "prenaglašeni neonski ili digitalni efekti"
+    ],
+    "evidence": [
+      "theme-color i dominantna brend boja u CSS-u je #e92226 (crvena), uz tamne smeđe #5a1515 i #640e00",
+      "slogan 'Okus koji spaja generacije' i naslov 'Znamo se već više od sto godina'",
+      "sadržaji za djecu: 'Znatiželjci', 'Dječji svijet', 'Krašograd - svijet zabave za male i velike'",
+      "Krašoblog s receptima 'za prste polizati' i nove premium čokolade za kuhanje"
+    ],
+    "confidence": "visoka"
+  },
+  "siteColors": [
+    {
+      "hex": "#ffffff",
+      "count": 614
+    },
+    {
+      "hex": "#000000",
+      "count": 407
+    },
+    {
+      "hex": "#494848",
+      "count": 138
+    },
+    {
+      "hex": "#e92226",
+      "count": 116
+    },
+    {
+      "hex": "#999999",
+      "count": 100
+    },
+    {
+      "hex": "#e0e0e0",
+      "count": 85
+    },
+    {
+      "hex": "#5a1515",
+      "count": 60
+    },
+    {
+      "hex": "#d8d8d8",
+      "count": 45
+    },
+    {
+      "hex": "#72c880",
+      "count": 43
+    },
+    {
+      "hex": "#640e00",
+      "count": 36
+    },
+    {
+      "hex": "#dc2025",
+      "count": 35
+    },
+    {
+      "hex": "#e58779",
+      "count": 28
+    }
+  ],
+  "concepts": [
+    {
+      "title": "Prelomljena čokolada izbliza",
+      "channel": "Instagram objava",
+      "idea": "Apetitan makro prikaz prelomljene mliječne čokolade s komadićima kakaa u bogatim smeđim tonovima i crvenim naglaskom. Prenosi užitak i tradicionalnu kvalitetu po kojoj je Kraš poznat.",
+      "prompt": "Close-up of a broken bar of milk chocolate with rough snapped edges, scattered cocoa nibs around it, resting on a warm wooden table, a soft red linen napkin in the blurred background, soft natural window light from the side, rich deep cocoa brown and dark burgundy tones with a vivid red accent, shallow depth of field, appetizing editorial food photography, warm and inviting mood",
+      "size": "square_hd",
+      "attempts": [
+        {
+          "n": 1,
+          "prompt": "Close-up of a broken bar of milk chocolate with rough snapped edges, scattered cocoa nibs around it, resting on a warm wooden table, a soft red linen napkin in the blurred background, soft natural window light from the side, rich deep cocoa brown and dark burgundy tones with a vivid red accent, shallow depth of field, appetizing editorial food photography, warm and inviting mood",
+          "image": {
+            "file": "/images/fab6f1b5cbf465e5.jpg",
+            "width": 1024,
+            "height": 1024,
+            "costUsd": 0.025
+          },
+          "review": {
+            "scores": {
+              "brand_fit": 7,
+              "visual_quality": 6,
+              "prompt_adherence": 6
+            },
+            "critical_issue": false,
+            "strengths": [
+              "Topla paleta smeđih tonova s jasnim crvenim naglaskom salvete, u skladu s brendom",
+              "Lijepa plitka dubinska oštrina i drveni stol daju domaću atmosferu",
+              "Kocke čokolade na gornjoj strani izgledaju sjajno i apetitno"
+            ],
+            "issues": [
+              "Presjek prijeloma izgleda spužvasto i porozno, kao brownie ili kolač, a ne kao glatki prijelom mliječne čokolade",
+              "Umjesto komadića kakaa prikazana su zrna kave sa zarezom, što unosi pogrešnu asocijaciju",
+              "Ukupno svjetlo je pomalo tamno i tmurno za obiteljski, topao ton brenda",
+              "Boja čokolade više podsjeća na tamnu nego na mliječnu"
+            ],
+            "summary": "Atmosfera i boje pogađaju Kraš, ali neuvjerljiv spužvasti presjek i zrna kave umjesto kakaa zahtijevaju novu generaciju s drugačijim kadrom.",
+            "revised_prompt": "Several squares of milk chocolate snapped cleanly along their grooves, loosely stacked and scattered on a warm wooden table, seen from a gentle three-quarter angle showing the glossy smooth tops, a light dusting of cocoa powder nearby, a soft red linen napkin blurred in the background, bright warm natural window light, rich milk chocolate brown with a vivid red accent, shallow depth of field, appetizing cozy food photography"
+          },
+          "verdict": {
+            "pass": false,
+            "average": 6.3,
+            "reasons": [
+              "prosjek 6.3 < 7.5"
+            ]
+          }
+        },
+        {
+          "n": 2,
+          "prompt": "Several squares of milk chocolate snapped cleanly along their grooves, loosely stacked and scattered on a warm wooden table, seen from a gentle three-quarter angle showing the glossy smooth tops, a light dusting of cocoa powder nearby, a soft red linen napkin blurred in the background, bright warm natural window light, rich milk chocolate brown with a vivid red accent, shallow depth of field, appetizing cozy food photography",
+          "image": {
+            "file": "/images/c110a82de621efb8.jpg",
+            "width": 1024,
+            "height": 1024,
+            "costUsd": 0.025
+          },
+          "review": {
+            "scores": {
+              "brand_fit": 8,
+              "visual_quality": 8,
+              "prompt_adherence": 7
+            },
+            "critical_issue": false,
+            "strengths": [
+              "Topla, apetitna atmosfera u bogatim smeđim tonovima s crvenim naglaskom u pozadini",
+              "Sjajne, čiste površine čokolade, uvjerljiva plitka dubinska oštrina",
+              "Drveni stol i kakao prah daju domaći, tradicionalni ugođaj"
+            ],
+            "issues": [
+              "Komadi izgledaju kao debeli generički blokovi ili fudge, a ne kao kockice prelomljene čokoladne table",
+              "Nema vidljivog prijeloma, pa ideja prelomljene čokolade slabo dolazi do izražaja",
+              "Crveni naglasak je prigušen i ružičast, a ne živa Kraš crvena",
+              "Svjetlo je pomalo tamno i mutno za vedar, obiteljski ton"
+            ],
+            "summary": "Kvalitetan i topao vizual u duhu brenda, ali komadi ne djeluju kao prelomljena tabla čokolade, pa je koncept pogođen tek djelomično.",
+            "revised_prompt": "A thin milk chocolate bar with its grid of squares clearly visible, a few squares snapped off and lying beside it on a warm wooden table, slightly wider three-quarter view, light sprinkle of cocoa nibs, a bright vivid red linen napkin softly blurred behind, bright warm natural window light, rich milk chocolate browns, shallow depth of field, cozy appetizing homey food photography"
+          },
+          "verdict": {
+            "pass": true,
+            "average": 7.7,
+            "reasons": []
+          }
+        }
+      ],
+      "best": 2
+    },
+    {
+      "title": "Domaće pečenje s otopljenom čokoladom",
+      "channel": "Naslovna slika Krašobloga s receptima",
+      "idea": "Topla domaća kuhinja u kojoj se otopljena čokolada prelijeva preko domaćeg kolača. Poziva kućne slastičare na recepte 'za prste polizati' i budi obiteljsku nostalgiju.",
+      "prompt": "Homemade chocolate cake on a rustic ceramic plate, glossy melted dark chocolate dripping down its sides, cozy family kitchen in the soft-focus background, red checkered cloth on the wooden countertop, warm golden afternoon light through a window, rich chocolate brown tones with warm salmon and red accents, wide composition with space on one side, nostalgic homely food photography",
+      "size": "landscape_4_3",
+      "attempts": [
+        {
+          "n": 1,
+          "prompt": "Homemade chocolate cake on a rustic ceramic plate, glossy melted dark chocolate dripping down its sides, cozy family kitchen in the soft-focus background, red checkered cloth on the wooden countertop, warm golden afternoon light through a window, rich chocolate brown tones with warm salmon and red accents, wide composition with space on one side, nostalgic homely food photography",
+          "image": {
+            "file": "/images/de2525c5a7f8515d.jpg",
+            "width": 1024,
+            "height": 768,
+            "costUsd": 0.025
+          },
+          "review": {
+            "scores": {
+              "brand_fit": 8,
+              "visual_quality": 7,
+              "prompt_adherence": 8
+            },
+            "critical_issue": false,
+            "strengths": [
+              "Topla domaća kuhinja s crvenim kariranim stolnjakom pogađa nostalgičan, obiteljski ton Kraša",
+              "Sjajna otopljena čokolada koja se slijeva niz kolač djeluje apetitno",
+              "Meko prirodno svjetlo i zamućena pozadina daju ugodnu dubinu"
+            ],
+            "issues": [
+              "Kolač izgleda neobično: preljev tvori lukove kao da je kolač izrezan ispod glazure, a rubovi su nepravilni",
+              "Mrlje kakaa po tanjuru djeluju pomalo neuredno",
+              "Tanjur s tirkiznim dnom unosi hladniji ton u toplu paletu",
+              "Kompozicija je centrirana, bez jasnog praznog prostora za naslov bloga"
+            ],
+            "summary": "Atmosfera i boje dobro odgovaraju Kraševom Krašoblogu, ali neprirodan oblik kolača i neuredan tanjur traže doradu prije korištenja kao naslovne slike.",
+            "revised_prompt": "Whole homemade chocolate sheet cake in a rustic baking tin on a wooden kitchen table, glossy melted chocolate being poured from a small saucepan over the top, red checkered cloth beside it, cozy family kitchen softly blurred behind, warm golden window light, rich chocolate brown and warm red tones, clean tidy scene, empty space on the left side, nostalgic homely food photography"
+          },
+          "verdict": {
+            "pass": true,
+            "average": 7.7,
+            "reasons": []
+          }
+        }
+      ],
+      "best": 1
+    },
+    {
+      "title": "Slatki trenutak generacija",
+      "channel": "Oglas za kampanju 'Okus koji spaja generacije'",
+      "idea": "Baka i unuka zajedno uživaju u slatkišima za kuhinjskim stolom, prikazujući tradiciju koja spaja generacije. Topla i iskrena scena zajedništva bez stock dojma.",
+      "prompt": "Warm candid scene of a grandmother and a young granddaughter sitting together at a wooden kitchen table, smiling at each other, a plate of chocolate cookies and wrapped candies between them, cozy home interior, soft natural window light, warm brown tones with red accents from a red cardigan and tablecloth, gentle salmon highlights, shallow depth of field, heartfelt lifestyle photography, nostalgic family atmosphere",
+      "size": "portrait_4_3",
+      "attempts": [
+        {
+          "n": 1,
+          "prompt": "Warm candid scene of a grandmother and a young granddaughter sitting together at a wooden kitchen table, smiling at each other, a plate of chocolate cookies and wrapped candies between them, cozy home interior, soft natural window light, warm brown tones with red accents from a red cardigan and tablecloth, gentle salmon highlights, shallow depth of field, heartfelt lifestyle photography, nostalgic family atmosphere",
+          "image": {
+            "file": "/images/2a19773f6756dbca.jpg",
+            "width": 768,
+            "height": 1024,
+            "costUsd": 0.025
+          },
+          "review": {
+            "scores": {
+              "brand_fit": 8,
+              "visual_quality": 8,
+              "prompt_adherence": 8
+            },
+            "critical_issue": false,
+            "strengths": [
+              "Topla, iskrena emocija između bake i unuke, uvjerljiva izraza lica",
+              "Paleta odgovara brendu: Kraš crvena na kardiganima uz smeđe čokoladne tonove i meko prozorsko svjetlo",
+              "Uredna kompozicija s čokoladnim slatkišima u prvom planu kao vezom među generacijama"
+            ],
+            "issues": [
+              "Identični crveni kardigani djeluju inscenirano i daju blagi stock dojam",
+              "Likovi ne dijele i ne kušaju slatkiše, pa je užitak u slatkom trenutku tek naznačen",
+              "Tanjur jednoličnih čokoladnih kuglica izgleda pomalo plošno i manje apetitno od traženih keksa i bombona"
+            ],
+            "summary": "Topla i dobro izvedena obiteljska scena u bojama brenda, upotrebljiva za kampanju, ali bi prirodnija interakcija sa slatkišima i manje usklađena odjeća uklonile blagi stock dojam.",
+            "revised_prompt": "Candid moment of a grandmother handing a chocolate cookie to her young granddaughter at a wooden kitchen table, both laughing, the girl reaching for it, a plate of mixed chocolate cookies and pralines between them, cozy lived-in home kitchen, soft natural window light, warm brown tones, grandmother in a red cardigan, girl in a cream sweater, shallow depth of field, authentic documentary family photography, nostalgic and heartfelt"
+          },
+          "verdict": {
+            "pass": true,
+            "average": 8,
+            "reasons": []
+          }
+        }
+      ],
+      "best": 1
+    }
+  ],
+  "costs": {
+    "claudeUsd": 0.205812,
+    "imagesUsd": 0.1,
+    "claudeCalls": 6,
+    "images": 4,
+    "totalUsd": 0.305812
+  },
+  "durationSec": 39
+}
